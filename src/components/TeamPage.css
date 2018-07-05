@@ -1,0 +1,124 @@
+.teamPageBg{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: 130%;
+    background-position: left;
+    position: absolute;
+    transform: scale(1.2,1.8) rotate(-10deg);
+    z-index: -10;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.cup{
+    width: 100px;
+    height: 250px;
+    background-image: url('/cup.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 50;
+}
+.TeamPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamBox{
+    background: rgba(255,255,255,0.8);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.5), 10px 5px 30px rgba(0,0,0,0.1),  5px 5px 30px rgba(0,0,0,0.2);
+    display: flex;
+    border: 1px solid;
+}
+.teamBox-title{
+    background: rgba(255,255,255,0.5);
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamBox-title .title{
+    transform: rotate(-90deg);
+    text-align: center;
+    font-size: 3.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.4);
+
+}
+.teamBox-info{
+    padding: 30px;
+}
+.teamBox-info-img>img{
+    width: 350px;
+}
+.teamBox-info-data>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.teamBox-info-data>ul>li{
+    margin: 10px;
+    width: 80%;
+}
+.dataKey{
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+.dataVal{
+    font-size: 1.3em;
+}
+.teamBox-footer{
+    text-align: right;
+}
+/* .teamBox-footer .backLink{
+    text-align: right;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #111;
+    padding: 5px 10px;
+    line-height: 1.3em;
+    margin-left: auto;
+    color: #111;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.teamBox-footer .backLink:hover{
+    color: #7a5a00;
+    border: 2px solid #7a5a00;
+} */
+
+.teamBox-footer .backLink img{
+    width: 100px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.4);
+}
+.teamBox-footer .backLink img:hover{
+    border: 1px solid;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .teamBox{
+        width: 100%;
+        flex-direction: column;
+    }
+    .teamBox-title .title{
+        transform: none;
+    }
+    .teamBox-title{
+        text-align: center;
+    }
+}

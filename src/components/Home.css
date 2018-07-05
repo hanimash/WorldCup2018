@@ -1,0 +1,27 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+    padding: 0 50px;
+    background-image: url('/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.flexContainer{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.flexContainer>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    width: 318px;
+    padding: 60px 20px 0 20px;
+}
+.flexContainer>div.leftBox{
+    justify-content: flex-start;
+
+}
