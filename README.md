@@ -1,6 +1,6 @@
 # World-CUP-2018
 
-### World cup 2018 is web app shows us infomation of the football teams in the world cup 2018 using the FIFA Api [open app](https://ajar-lace-6734.roast.io/)
+### World cup 2018 is web app shows us infomation of the football teams in the world cup 2018 using the FIFA Api [open app](https://unique-amusement-7074.roast.io/)
 
 ### API for the World Cup
 
